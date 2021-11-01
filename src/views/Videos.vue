@@ -27,7 +27,7 @@ import axios from 'axios';
 const API_KEY = 'AIzaSyBqbj5ayrlc-vss0l5y_2YiImha_7oRgy8';
 
 export default {
-  name: 'Home',
+  name: 'Videos',
    components: {
     SearchVideo,
     VideoList,
@@ -84,15 +84,5 @@ export default {
     .scrool-fixed {
       position: sticky;
       top: 10px;
-    }
-
-    @media(max-width: 767px) {
-      .list-view {
-        padding: 0 15px;
-      }
-      .scrool-fixed {
-        position: relative;
-        top: 0px;
-      }
     }
 </style>
